@@ -156,20 +156,20 @@ install_x-ui() {
     echo -e "x-ui How to use management scripts: "
     echo -e "----------------------------------------------"
     echo -e "x-ui              - Show management menu (more functions)"
-    echo -e "x-ui start        - start up x-ui panel"
-    echo -e "x-ui stop         - stop x-ui panel"
+    echo -e "x-ui start        - Start up x-ui panel"
+    echo -e "x-ui stop         - Stop x-ui panel"
     echo -e "x-ui restart      - Restart x-ui panel"
     echo -e "x-ui status       - Check x-ui state"
-    echo -e "x-ui enable       - set up x-ui Start automatically at boot"
+    echo -e "x-ui enable       - Set up x-ui Start automatically at boot"
     echo -e "x-ui disable      - Cancel x-ui Start automatically at boot"
     echo -e "x-ui log          - Check x-ui log"
     echo -e "x-ui v2-ui        - Migrate this machine v2-ui Account data to x-ui"
-    echo -e "x-ui update       - renew x-ui panel"
+    echo -e "x-ui update       - Renew x-ui panel"
     echo -e "x-ui install      - Install x-ui panel"
-    echo -e "x-ui uninstall    - uninstall x-ui panel"
+    echo -e "x-ui uninstall    - Uninstall x-ui panel"
     echo -e "----------------------------------------------"
 }
 
-echo -e "${green}开始安装${plain}"
+echo -e "${green}start installation${plain}"
 install_base
 install_x-ui $1
